@@ -1,0 +1,37 @@
+PS D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps> snow app run
+WARNING: native_app.package.scripts is deprecated. Please migrate to using native_app.package.post_deploy.
+processed file: D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps\output\deploy\libraries\environment.yml
+Successfully processed 1 files; Failed processing 0 files
+processed file: D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps\output\deploy\libraries\environment.yml
+Successfully processed 1 files; Failed processing 0 files
+processed file: D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps\output\deploy\libraries\procs.py
+Successfully processed 1 files; Failed processing 0 files
+processed file: D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps\output\deploy\libraries\procs.py
+Successfully processed 1 files; Failed processing 0 files
+processed file: D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps\output\deploy\libraries\streamlit.py
+Successfully processed 1 files; Failed processing 0 files
+processed file: D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps\output\deploy\libraries\streamlit.py
+Successfully processed 1 files; Failed processing 0 files
+processed file: D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps\output\deploy\libraries\udf.py
+Successfully processed 1 files; Failed processing 0 files
+processed file: D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps\output\deploy\libraries\udf.py
+Successfully processed 1 files; Failed processing 0 files
+processed file: D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps\output\deploy\manifest.yml
+Successfully processed 1 files; Failed processing 0 files
+processed file: D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps\output\deploy\manifest.yml
+Successfully processed 1 files; Failed processing 0 files
+processed file: D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps\output\deploy\setup.sql
+Successfully processed 1 files; Failed processing 0 files
+processed file: D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps\output\deploy\setup.sql
+Successfully processed 1 files; Failed processing 0 files
+Checking if stage NATIVE_APP_QUICKSTART_PACKAGE_pkg_gorle.app_src.stage exists, or creating a new one if none exists.
+Performing a diff between the Snowflake stage: stage and your local deploy_root: D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps\output\deploy.
+Your stage is up-to-date with your local deploy root.
+Executing application package post-deploy actions
+  Executing SQL script: scripts/setup-package-script.sql
+Validating Snowflake Native App setup script.
+Creating new application object NATIVE_APP_QUICKSTART_PACKAGE_gorle in account.
+Application 'NATIVE_APP_QUICKSTART_PACKAGE_GORLE' created successfully.
+
+Your application object (NATIVE_APP_QUICKSTART_PACKAGE_gorle) is now available:
+https://app.snowflake.com/PSUTTMZ/qvb84335/#/apps/application/NATIVE_APP_QUICKSTART_PACKAGE_GORLE

@@ -1,0 +1,41 @@
+PS D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps> snow app version create V1
+WARNING: native_app.package.scripts is deprecated. Please migrate to using native_app.package.post_deploy.
+processed file: D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps\output\deploy\libraries\environment.yml
+Successfully processed 1 files; Failed processing 0 files
+processed file: D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps\output\deploy\libraries\environment.yml
+Successfully processed 1 files; Failed processing 0 files
+processed file: D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps\output\deploy\libraries\procs.py
+Successfully processed 1 files; Failed processing 0 files
+processed file: D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps\output\deploy\libraries\procs.py
+Successfully processed 1 files; Failed processing 0 files
+processed file: D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps\output\deploy\libraries\streamlit.py
+Successfully processed 1 files; Failed processing 0 files
+processed file: D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps\output\deploy\libraries\streamlit.py
+Successfully processed 1 files; Failed processing 0 files
+processed file: D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps\output\deploy\libraries\udf.py
+Successfully processed 1 files; Failed processing 0 files
+processed file: D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps\output\deploy\libraries\udf.py
+Successfully processed 1 files; Failed processing 0 files
+processed file: D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps\output\deploy\manifest.yml
+Successfully processed 1 files; Failed processing 0 files
+processed file: D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps\output\deploy\manifest.yml
+Successfully processed 1 files; Failed processing 0 files
+processed file: D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps\output\deploy\setup.sql
+Successfully processed 1 files; Failed processing 0 files
+processed file: D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps\output\deploy\setup.sql
+Successfully processed 1 files; Failed processing 0 files
+Ignoring version information from the application manifest since a version was explicitly specified with the command.
+Changes detected in the git repository. (Rerun your command with --skip-git-check flag to ignore this check)
+You have local changes in this repository that are not part of a previous commit. Do you still want to continue? [y/N]: y
+Checking if stage NATIVE_APP_QUICKSTART_PACKAGE_pkg_gorle.app_src.stage exists, or creating a new one if none exists.
+Performing a diff between the Snowflake stage: stage and your local deploy_root: D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps\output\deploy.
+Local changes to be deployed:
+  modified: app\src\manifest.yml -> manifest.yml
+Updating the Snowflake stage from your local D:\MS\Study\SEM - 3\DAMG 7245\Assignments\Assignment 3 Part 1\sfguide-getting-started-with-native-apps\output\deploy directory.        
+No cabundle file is found in _MEIPASS
+Executing application package post-deploy actions
+  Executing SQL script: scripts/setup-package-script.sql
+Validating Snowflake Native App setup script.
+Defining a new version V1 in application package NATIVE_APP_QUICKSTART_PACKAGE_pkg_gorle
+Version V1 created for application package NATIVE_APP_QUICKSTART_PACKAGE_pkg_gorle.
+Version create is now complete.
